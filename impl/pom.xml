@@ -29,6 +29,29 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
       <version>${project.version}</version>
     </dependency>
 
+	<!-- JSON -->
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.8.9</version>
+	</dependency>
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-core</artifactId>
+		<version>2.8.9</version>
+	</dependency>
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-annotations</artifactId>
+		<version>2.8.9</version>
+	</dependency>
+
+	<dependency>
+		<groupId>xstream</groupId>
+		<artifactId>xstream</artifactId>
+		<version>1.2.2</version>
+	</dependency>
+
     <!-- Testing Dependencies -->
     <dependency>
       <groupId>junit</groupId>
